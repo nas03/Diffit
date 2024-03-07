@@ -10,6 +10,13 @@ This project is a clone of Diffit.me, which is an teaching resources generator. 
 - **Summarize** Youtube video, PDF or an article contents and tuning it to a specific reading level
 - **Get differentiated resources** from a excerpt, original document, or other text.
 
+## TechStack
+
+- Front-end: Vite, React
+- Backend: Node.Js, Express.js, GraphQL
+- Database: PostgreSQL, Redis
+- AI Response: Gemini
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/nas03/diffit.git`
