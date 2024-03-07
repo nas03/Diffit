@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "main": "src/server.ts",
+  "devDependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/node": "latest",
+    "@babel/preset-env": "latest",
+    "@types/bun": "latest",
+    "@types/cors": "latest",
+    "@types/express": "latest",
+    "@types/multer": "latest",
+    "@types/node": "latest",
+    "@types/readline-sync": "^1.4.8",
+    "babel-plugin-root-import": "latest",
+    "nodemon": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn src/server.ts",
+    "start": "npm run compile && nodemon ./dist/server.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "multer": "latest",
+    "readline-sync": "^1.4.10",
+    "ts-node": "latest",
+    "ts-node-dev": "latest",
+    "tsconfig-paths": "latest"
+  },
+  "license": "ISC"
+}
